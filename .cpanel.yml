@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/SEU_USUARIO/public_html
+    - export DEPLOYPATH=/home4/joanes03/public_html
     - echo "🚀 Iniciando deploy para $DEPLOYPATH"
     - /bin/rm -rf $DEPLOYPATH/*
     - /bin/cp -R dist/* $DEPLOYPATH/
