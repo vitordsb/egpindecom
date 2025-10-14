@@ -38,20 +38,20 @@ const Hero = () => {
           <span className="text-white">TECNOLOGIA E SEGURANÇA EM</span>
           <br />
           <span className="">
-            ELETRIFICADORES E CERCAS ELETRÔNICAS
+            ALARMES E ELETRIFICADORES
           </span>
         </motion.h1>
 
-        <motion.p
-          className="text-lg md:text-2xl text-gray-100 max-w-2xl mx-auto mb-10 leading-relaxed"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6, duration: 0.8 }}
-        >
-          Soluções modernas em <span className="text-[#DF5167] font-semibold">proteção perimetral</span>,
-          integrando tecnologia, design e confiança para segurança residencial e comercial.
-        </motion.p>
-
+        {/* <motion.p */}
+        {/*   className="text-lg md:text-2xl text-gray-100 max-w-2xl mx-auto mb-10 leading-relaxed" */}
+        {/*   initial={{ opacity: 0, y: 30 }} */}
+        {/*   animate={{ opacity: 1, y: 0 }} */}
+        {/*   transition={{ delay: 0.6, duration: 0.8 }} */}
+        {/* > */}
+        {/*   Soluções modernas em <span className="text-[#DF5167] font-semibold">proteção perimetral</span>, */}
+        {/*   integrando tecnologia, design e confiança para segurança residencial e comercial. */}
+        {/* </motion.p> */}
+        {/**/}
         <motion.div
           className="grid sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4 justify-center"
           initial={{ opacity: 0, y: 30 }}
