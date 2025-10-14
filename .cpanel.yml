@@ -1,17 +1,7 @@
 deployment:
   tasks:
-    # Define o caminho de destino
-    - export DEPLOYPATH=/home4/joanes03/public_html
-
-    # Limpa o diretório antigo
+    - export DEPLOYPATH=/home4/SEU_USUARIO/public_html
+    - echo "🚀 Iniciando deploy para $DEPLOYPATH"
     - /bin/rm -rf $DEPLOYPATH/*
-
-    # Gera o build do projeto React (caso queira buildar no servidor)
-    # ⚠️ Isso requer Node instalado no servidor; se não tiver, ignore a linha abaixo.
-    # - npm install && npm run build
-
-    # Copia o conteúdo do build para o public_html
     - /bin/cp -R dist/* $DEPLOYPATH/
-
-    # Log simples
-    - echo "🚀 Deploy concluído com sucesso em $(date)" >> /home4/joanes03/deploy.log
+    - echo "✅ Deploy concluído em $(date)" >> /home4/SEU_USUARIO/deploy.log
