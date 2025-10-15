@@ -1,8 +1,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home4/joanes03/public_html
-    - echo "🚀 Iniciando deploy para $DEPLOYPATH em $(date)" >> /home4/joanes03/deploy.log
+    - echo "Iniciando deploy para $DEPLOYPATH em $(date)" >> /home4/joanes03/deploy.log
     - set -e
     - /bin/rm -rf $DEPLOYPATH/*
     - /bin/cp -R $PWD/dist/* $DEPLOYPATH/
-    - echo "✅ Deploy concluído com sucesso em $(date)" >> /home4/joanes03/deploy.log
+    - echo "Deploy concluído com sucesso em $(date)" >> /home4/joanes03/deploy.log
