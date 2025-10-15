@@ -15,37 +15,31 @@ const Products = () => {
       image: central12v,
       name: 'Eletrificadores',
       category: 'central',
-      description: 'Central de Choque ou Alarme com alta eficiência e durabilidade.',
     },
     {
       image: controle2b,
       name: 'Controles',
       category: 'controle',
-      description: 'Central de Choque ou Alarme com tecnologia econômica.',
     },
     {
       image: sirene,
       name: 'Sirenes',
       category: 'sirene',
-      description: 'Sirene de alta potência para sistemas de segurança.'
     },
     {
       image: acoinox,
       name: 'Aço Inox',
       category: 'fioinox',
-      description: 'Fio de alta qualidade para instalação de cercas elétricas.'
     },
     {
       image: haste,
       name: 'Hastes',
       category: 'haste',
-      description: 'Hastes resistentes para fixação de cercas.'
     },
     {
       image: concertina,
       name: 'Concertina',
       category: 'concertina',
-      description: 'Controles remotos para sistemas de segurança.'
     }
   ];
 
@@ -86,9 +80,6 @@ const Products = () => {
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   {product.name}
                 </h3>
-                <p className="text-gray-600">
-                  {product.description}
-                </p>
                 <div className="flex justify-center mt-4 gap-2">
                   <Link to={`/products/${index}`}>
                     <Button

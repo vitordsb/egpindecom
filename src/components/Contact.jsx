@@ -19,7 +19,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aqui você pode adicionar a lógica de envio do formulário
     console.log('Form submitted:', formData);
     alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
     setFormData({
@@ -33,7 +32,6 @@ const Contact = () => {
   return (
     <section id="contato" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Entre em Contato
@@ -44,7 +42,6 @@ const Contact = () => {
           </p>
         </div>
 
-        {/* Contact Form */}
         <div className="max-w-2xl mx-auto">
           <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-lg p-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -65,7 +62,6 @@ const Contact = () => {
                 />
               </div>
 
-              {/* Email */}
               <div>
                 <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
                   E-mail
@@ -83,7 +79,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Subject */}
             <div className="mb-6">
               <label htmlFor="subject" className="block text-sm font-semibold text-gray-700 mb-2">
                 Assunto
@@ -122,10 +117,9 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            {/* Submit Button */}
-            <Button 
-              type="submit" 
-              size="lg" 
+            <Button
+              type="submit"
+              size="lg"
               className="w-full bg-primary hover:bg-primary/90 text-white"
             >
               <Send className="mr-2" />

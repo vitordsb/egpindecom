@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button";
 
 import central12v from "../assets/products/central/central12v.png";
 import controle2b from "../assets/products/controles/controle2bcinza.png";
+import controle4b from "../assets/products/controles/controle4bcopiador.png";
+import sirenemag from "../assets/products/sirenes/sirenemag.jpg";
 import sirene from "../assets/products/sirenes/Sirene.png";
 import acoinox from "../assets/products/fiodeaco.jpg";
 import haste from "../assets/products/haste.jpg";
@@ -17,13 +19,23 @@ export const allProducts = [
     image: central12v,
     name: "Central EGP 12.000",
     category: "central",
-    description: "Central de choque ou alarme com alta eficiência e durabilidade.",
     specs: [
-      "Tensão de saída: 12.000V pulsante",
-      "Alimentação: 127/220V bivolt automático",
-      "Consumo: 6W em operação",
-      "Frequência de pulso: 1Hz",
-      "Compatível com sensores de alarme"
+      "Liga e Desliga por controle chave e App",
+      "Tensão ajustável 8.000V 12.000V e 15.000V 20.000V",
+      "Tensão de operação 12Vcc",
+      "2 Setores de Alarme independentes",
+      "Energia 0,5J 0,75J e 0,75J 2J",
+      "Entrada para sensores com e sem fio",
+      "Entrada para monitoramento",
+      "Sistema anti-sabotagem",
+      "Eletrifica de 0,1m a 1.400m e de 0,1m a 5.000m",
+      "Saída de rele CO/NA/NF",
+      "Saída Led Cerca",
+      "Saída para Sirene",
+      "Saída Bip de Sirene Liga Desliga",
+      "Compatível com algumas das principais marcas",
+      "Nobreak",
+      "Saída de 12Vcc para alimentação de periféricos"
     ],
   },
   {
@@ -31,25 +43,23 @@ export const allProducts = [
     image: controle2b,
     name: "Controles",
     category: "controle",
-    description: "Controle remoto de longo alcance, com frequência de 433 MHz.",
     specs: [
-      "Frequência: 433,92 MHz",
-      "Alcance: até 100 metros (sem obstáculos)",
-      "Bateria: 12V 23A inclusa",
-      "Carcaça: ABS resistente"
+      "Alarmes",
+      "Cercas elétricas",
+      "Automatizadores de portas e portões",
+      "Learning code 433,92MHz"
     ],
   },
   {
     id: 2,
     image: sirene,
-    name: "Sirenes",
+    name: "Sirene Piezzo",
     category: "sirene",
-    description: "Sirene de alta potência para sistemas de segurança.",
     specs: [
-      "Potência sonora: 120 dB",
-      "Tensão: 12V DC",
-      "Consumo: 300mA",
-      "Material: ABS injetado"
+      "Toque 1 tom",
+      "Potência sonora: 120dB à 1 metro",
+      "Alimentação 12V",
+      "Corrente: 1A"
     ],
   },
   {
@@ -57,12 +67,9 @@ export const allProducts = [
     image: acoinox,
     name: "Aço Inox",
     category: "fioinox",
-    description: "Fio de aço inoxidável de alta qualidade para cercas elétricas.",
     specs: [
-      "Material: Aço inox 304",
-      "Bitola: 0,8 mm",
-      "Resistência: 180 kgf",
-      "Comprimento: 500 metros"
+      "Aço inoxidável",
+      "Opções em: 0,45mm 0,60mm 0,70mm e 0,90mm"
     ],
   },
   {
@@ -70,12 +77,8 @@ export const allProducts = [
     image: haste,
     name: "Hastes",
     category: "haste",
-    description: "Hastes galvanizadas resistentes à corrosão.",
     specs: [
-      "Material: Aço galvanizado",
-      "Altura: 50 cm",
-      "Diâmetro: 10 mm",
-      "Ponta afiada para melhor fixação"
+      "Hastes reforçadas com isoladores",
     ],
   },
   {
@@ -83,7 +86,6 @@ export const allProducts = [
     image: concertina,
     name: "Concertina",
     category: "concertina",
-    description: "Concertina com lâminas duplas de alta proteção.",
     specs: [
       "Diâmetro: 45 cm",
       "Abertura entre lâminas: 15 cm",
@@ -96,12 +98,23 @@ export const allProducts = [
     image: central12v,
     name: "Central EGP 15.000 Plug IN",
     category: "central",
-    description: "Concertina com lâminas duplas de alta proteção.",
     specs: [
-      "Diâmetro: 45 cm",
-      "Abertura entre lâminas: 15 cm",
-      "Material: Aço galvanizado",
-      "Comprimento: 10 metros"
+      "Liga e Desliga por controle chave e App",
+      "Tensão ajustável 8.000V 12.000V e 15.000V 20.000V",
+      "Tensão de operação 12Vcc",
+      "2 Setores de Alarme independentes",
+      "Energia 0,5J 0,75J e 0,75J 2J",
+      "Entrada para sensores com e sem fio",
+      "Entrada para monitoramento",
+      "Sistema anti-sabotagem",
+      "Eletrifica de 0,1m a 1.400m e de 0,1m a 5.000m",
+      "Saída de rele CO/NA/NF",
+      "Saída Led Cerca",
+      "Saída para Sirene",
+      "Saída Bip de Sirene Liga Desliga",
+      "Compatível com algumas das principais marcas",
+      "Nobreak",
+      "Saída de 12Vcc para alimentação de periféricos"
     ],
   },
   {
@@ -109,12 +122,23 @@ export const allProducts = [
     image: central12v,
     name: "Central EGP 15.000 Guard On",
     category: "central",
-    description: "Concertina com lâminas duplas de alta proteção.",
     specs: [
-      "Diâmetro: 45 cm",
-      "Abertura entre lâminas: 15 cm",
-      "Material: Aço galvanizado",
-      "Comprimento: 10 metros"
+      "Liga e Desliga por controle chave e App",
+      "Tensão ajustável 8.000V 12.000V e 15.000V 20.000V",
+      "Tensão de operação 12Vcc",
+      "2 Setores de Alarme independentes",
+      "Energia 0,5J 0,75J e 0,75J 2J",
+      "Entrada para sensores com e sem fio",
+      "Entrada para monitoramento",
+      "Sistema anti-sabotagem",
+      "Eletrifica de 0,1m a 1.400m e de 0,1m a 5.000m",
+      "Saída de rele CO/NA/NF",
+      "Saída Led Cerca",
+      "Saída para Sirene",
+      "Saída Bip de Sirene Liga Desliga",
+      "Compatível com algumas das principais marcas",
+      "Nobreak",
+      "Saída de 12Vcc para alimentação de periféricos"
     ],
   },
   {
@@ -122,12 +146,23 @@ export const allProducts = [
     image: central12v,
     name: "Central EGP 20.000",
     category: "central",
-    description: "Concertina com lâminas duplas de alta proteção.",
     specs: [
-      "Diâmetro: 45 cm",
-      "Abertura entre lâminas: 15 cm",
-      "Material: Aço galvanizado",
-      "Comprimento: 10 metros"
+      "Liga e Desliga por controle chave e App",
+      "Tensão ajustável 8.000V 12.000V e 15.000V 20.000V",
+      "Tensão de operação 12Vcc",
+      "2 Setores de Alarme independentes",
+      "Energia 0,5J 0,75J e 0,75J 2J",
+      "Entrada para sensores com e sem fio",
+      "Entrada para monitoramento",
+      "Sistema anti-sabotagem",
+      "Eletrifica de 0,1m a 1.400m e de 0,1m a 5.000m",
+      "Saída de rele CO/NA/NF",
+      "Saída Led Cerca",
+      "Saída para Sirene",
+      "Saída Bip de Sirene Liga Desliga",
+      "Compatível com algumas das principais marcas",
+      "Nobreak",
+      "Saída de 12Vcc para alimentação de periféricos"
     ],
   },
 
@@ -136,12 +171,47 @@ export const allProducts = [
     image: central12v,
     name: "Central EGP 12.000 Nobreak",
     category: "central",
-    description: "Concertina com lâminas duplas de alta proteção.",
     specs: [
-      "Diâmetro: 45 cm",
-      "Abertura entre lâminas: 15 cm",
-      "Material: Aço galvanizado",
-      "Comprimento: 10 metros"
+      "Liga e Desliga por controle chave e App",
+      "Tensão ajustável 8.000V 12.000V e 15.000V 20.000V",
+      "Tensão de operação 12Vcc",
+      "2 Setores de Alarme independentes",
+      "Energia 0,5J 0,75J e 0,75J 2J",
+      "Entrada para sensores com e sem fio",
+      "Entrada para monitoramento",
+      "Sistema anti-sabotagem",
+      "Eletrifica de 0,1m a 1.400m e de 0,1m a 5.000m",
+      "Saída de rele CO/NA/NF",
+      "Saída Led Cerca",
+      "Saída para Sirene",
+      "Saída Bip de Sirene Liga Desliga",
+      "Compatível com algumas das principais marcas",
+      "Nobreak",
+      "Saída de 12Vcc para alimentação de periféricos"
+    ],
+  },
+  {
+    id: 10,
+    image: controle4b,
+    name: "Controle 4 botões copiador",
+    category: "controle",
+    specs: [
+      "Alarmes",
+      "Cercas elétricas",
+      "Automatizadores de portas e portões",
+      "Learning code 433,92MHz"
+    ],
+  },
+  {
+    id: 11,
+    image: sirenemag,
+    name: "Sirene magnética",
+    category: "sirene",
+    specs: [
+      "Toque 1 tom",
+      "Potência sonora: 120dB à 1 metro",
+      "Alimentação 12V",
+      "Corrente: 1A"
     ],
   },
 ];
@@ -181,8 +251,6 @@ export default function ProductDetails() {
             <h1 className="text-3xl font-bold text-gray-900 mb-2">
               {product.name}
             </h1>
-            <p className="text-primary font-semibold mb-3">{product.category}</p>
-            <p className="text-gray-700 mb-6">{product.description}</p>
 
             <h2 className="text-xl font-semibold mb-3 text-gray-800">
               Especificações Técnicas

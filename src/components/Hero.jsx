@@ -95,13 +95,15 @@ const Hero = () => {
             </Button>
           </Link>
 
-          <Button
-            size="lg"
-            variant="outline"
-            className="w-full border-2 border-[#2E74FF] text-[#2E74FF] hover:bg-[#2E74FF] hover:text-white px-8 py-5 text-base sm:text-lg font-semibold rounded-xl transition-all duration-300"
-          >
-            Fazer um orçamento
-          </Button>
+          <Link to="/eventos">
+            <Button
+              size="lg"
+              variant="outline"
+              className="w-full border-2 border-[#2E74FF] text-[#2E74FF] hover:bg-[#2E74FF] hover:text-white px-8 py-5 text-base sm:text-lg font-semibold rounded-xl transition-all duration-300"
+            >
+              Nossos eventos
+            </Button>
+          </Link>
         </motion.div>
       </motion.div>
 

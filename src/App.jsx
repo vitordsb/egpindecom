@@ -13,6 +13,7 @@ import ElectraChatbot from './components/ElectraChatBot'
 import PoliticaPrivacidade from './pages/PoliticaDePrivacidade'
 import ProductsDetails from './pages/ProductDetails'
 import RelatedProducts from './pages/RelatedProducts'
+import Eventos from './pages/Eventos'
 
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
@@ -31,6 +32,7 @@ function AnimatedRoutes() {
         <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
         <Route path="/manuais" element={<PageWrapper><ManualPage /></PageWrapper>} />
         <Route path="/politica-de-privacidade" element={<PageWrapper><PoliticaPrivacidade /></PageWrapper>} />
+        <Route path="/eventos" element={<PageWrapper><Eventos /></PageWrapper>} />
 
         <Route path="/products/:id" element={<PageWrapper><ProductsDetails /></PageWrapper>} />
         <Route path="/products/related/:category" element={<PageWrapper><RelatedProducts /></PageWrapper>} />
