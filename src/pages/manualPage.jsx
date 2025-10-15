@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 
 const ManualPage = () => {
   const manuals = [
-    { name: "DENKI 1.2", link: "/public/manuais/denki12/Denki12.pdf" },
-    { name: "DENKI 5.0", link: "/public/manuais/denk5/Denki5.pdf" },
-    { name: "EGP12V / EGP15V / EGP20V", link: "/public/manuais/eco12v/Manual EGP 12v 15v 20v.pdf" },
-    { name: "MÓDULO WIFI PLUGIN", link: "/public/manuais/egpplugin/Manual Módulo EGP PLUG IN WIFI.pdf" },
-    { name: "ECO 10.000 / EGP 12.000 / CHRONOS / 20.000", link: "/public/manuais/eco12v/Manual EGP 12v 15v 20v.pdf" },
-    { name: "EGP NOBREAK / 12V3A / 12V6A", link: "/public/manuais/egpnobreak/EGP Nobreak.pdf" },
-    { name: "EGP AUTOMATIZADOR 520/640/760", link: "/public/manuais/centralmonofasicaEGP520/centralmonofasica.pdf" },
-    { name: "TEKNOGAM", link: "/public/manuais/teknogam/teknogam.pdf" },
-    { name: "FONTE 12V 1,5A", link: "/public/manuais/eco12v/Manual EGP 12v 15v 20v.pdf" },
-    { name: "ALARM LOCK", link: "/public/manuais/alarm/alarmlock.pdf" },
+    { name: "DENKI 1.2", link: "/manuais/denki12/Denki12.pdf" },
+    { name: "DENKI 5.0", link: "/manuais/denk5/Denki5.pdf" },
+    { name: "EGP12V / EGP15V / EGP20V", link: "/manuais/eco12v/Manual EGP 12v 15v 20v.pdf" },
+    { name: "MÓDULO WIFI PLUGIN", link: "/manuais/egpplugin/Manual Módulo EGP PLUG IN WIFI.pdf" },
+    { name: "ECO 10.000 / EGP 12.000 / CHRONOS / 20.000", link: "/manuais/eco12v/Manual EGP 12v 15v 20v.pdf" },
+    { name: "EGP NOBREAK / 12V3A / 12V6A", link: "/manuais/egpnobreak/EGP Nobreak.pdf" },
+    { name: "EGP AUTOMATIZADOR 520/640/760", link: "/manuais/centralmonofasicaEGP520/centralmonofasica.pdf" },
+    { name: "TEKNOGAM", link: "/manuais/teknogam/teknogam.pdf" },
+    { name: "FONTE 12V 1,5A", link: "/manuais/eco12v/Manual EGP 12v 15v 20v.pdf" },
+    { name: "ALARM LOCK", link: "/manuais/alarm/alarmlock.pdf" },
   ];
 
   return (
