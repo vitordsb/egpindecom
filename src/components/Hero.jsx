@@ -49,7 +49,7 @@ const Hero = () => {
           transition={{ delay: 0.6, duration: 0.8 }}
         >
           Soluções modernas em <span className="text-[#DF5167] font-semibold">proteção perimetral</span>,
-          integrando tecnologia, design e confiança para segurança residencial e comercial.
+          integrando tecnologia, e design para a sua segurança residencial e comercial.
         </motion.p>
 
         <motion.div
