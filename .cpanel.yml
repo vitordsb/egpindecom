@@ -4,4 +4,4 @@ deployment:
     - echo "🚀 Iniciando deploy para $DEPLOYPATH"
     - /bin/rm -rf $DEPLOYPATH/*
     - /bin/cp -R dist/* $DEPLOYPATH/
-    - echo "✅ Deploy concluído em $(date)" >> /home4/SEU_USUARIO/deploy.log
+    - echo "✅ Deploy concluído em $(date)" >> /home4/joanes03/deploy.log
