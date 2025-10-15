@@ -10,7 +10,7 @@ const ManualPage = () => {
     { name: "EGP NOBREAK / 12V3A / 12V6A", link: "/manuaisegp/egpnobreak/EGPNobreak.pdf" },
     { name: "EGP AUTOMATIZADOR 520/640/760", link: "/manuaisegp/centralmonofasicaEGP520/centralmonofasica.pdf" },
     { name: "TEKNOGAM", link: "/manuaisegp/teknogam/teknogam.pdf" },
-    { name: "FONTE 12V 1,5A", link: "/manuaisegp/eco12v/Manual_EGP_12v_15v_20v.pdf" },
+    { name: "FONTE 12V 1,5A", link: "/manuaisegp/eco12v/ManualEGP12v15v20v.pdf" },
     { name: "ALARM LOCK", link: "/manuaisegp/alarm/alarmlock.pdf" },
   ];
 
