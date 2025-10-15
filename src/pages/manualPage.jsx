@@ -4,16 +4,16 @@ import { FileText, Download } from "lucide-react";
 
 const ManualPage = () => {
   const manuals = [
-    { name: "DENKI 1.2", link: "/manuais/denki12/Denki12.pdf" },
-    { name: "DENKI 5.0", link: "/manuais/denk5/Denki5.pdf" },
-    { name: "EGP12V / EGP15V / EGP20V", link: "/manuais/eco12v/Manual_EGP_12v_15v_20v.pdf" },
-    { name: "MÓDULO WIFI PLUGIN", link: "/manuais/egpplugin/Manual_Modulo_EGP_PLUGIN_WIFI.pdf" },
-    { name: "ECO 10.000 / EGP 12.000 / CHRONOS / 20.000", link: "/manuais/eco12v/Manual_EGP_12v_15v_20v.pdf" },
-    { name: "EGP NOBREAK / 12V3A / 12V6A", link: "/manuais/egpnobreak/EGP_Nobreak.pdf" },
-    { name: "EGP AUTOMATIZADOR 520/640/760", link: "/manuais/centralmonofasicaEGP520/centralmonofasica.pdf" },
-    { name: "TEKNOGAM", link: "/manuais/teknogam/teknogam.pdf" },
-    { name: "FONTE 12V 1,5A", link: "/manuais/eco12v/Manual_EGP_12v_15v_20v.pdf" },
-    { name: "ALARM LOCK", link: "/manuais/alarm/alarmlock.pdf" },
+    { name: "DENKI 1.2", link: "/manuaisegp/denki12/Denki12.pdf" },
+    { name: "DENKI 5.0", link: "/manuaisegp/denk5/Denki5.pdf" },
+    { name: "EGP12V / EGP15V / EGP20V", link: "/manuaisegp/eco12v/Manual_EGP_12v_15v_20v.pdf" },
+    { name: "MÓDULO WIFI PLUGIN", link: "/manuaisegp/egpplugin/Manual_Modulo_EGP_PLUGIN_WIFI.pdf" },
+    { name: "ECO 10.000 / EGP 12.000 / CHRONOS / 20.000", link: "/manuaisegp/eco12v/Manual_EGP_12v_15v_20v.pdf" },
+    { name: "EGP NOBREAK / 12V3A / 12V6A", link: "/manuaisegp/egpnobreak/EGP_Nobreak.pdf" },
+    { name: "EGP AUTOMATIZADOR 520/640/760", link: "/manuaisegp/centralmonofasicaEGP520/centralmonofasica.pdf" },
+    { name: "TEKNOGAM", link: "/manuaisegp/teknogam/teknogam.pdf" },
+    { name: "FONTE 12V 1,5A", link: "/manuaisegp/eco12v/Manual_EGP_12v_15v_20v.pdf" },
+    { name: "ALARM LOCK", link: "/manuaisegp/alarm/alarmlock.pdf" },
   ];
 
   return (
