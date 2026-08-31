@@ -1,0 +1,8 @@
+/node_modules
+
+# Ambiente e segredos
+.env
+.env.*
+!.env.example
+*.pem
+*.key

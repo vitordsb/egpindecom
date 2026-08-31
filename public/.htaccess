@@ -1,0 +1,27 @@
+Options -MultiViews
+RewriteEngine On
+
+# (opcional) força HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redireciona antigos manuais.html para a rota React /manuais
+RewriteCond %{THE_REQUEST} \s/manuais\.html [NC]
+RewriteRule ^manuais\.html$ /manuais [L,R=301]
+
+# Redireciona antigos politica-de-privacidade.html para a rota React /politica-de-privacidade
+RewriteCond %{THE_REQUEST} \s/politica-de-privacidade\.html [NC]
+RewriteRule ^politica-de-privacidade\.html$ /politica-de-privacidade [L,R=301]
+
+# Libera arquivos estáticos
+<FilesMatch "\.(js|css|png|jpg|jpeg|gif|svg|pdf|webp|ico|txt|woff|woff2|ttf|eot|json|zip|mp4)$">
+  Order allow,deny
+  Allow from all
+</FilesMatch>
+
+AddType application/pdf .pdf
+
+# Roteamento padrão do React SPA
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]

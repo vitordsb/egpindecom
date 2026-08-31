@@ -1,0 +1,388 @@
+[2025-12-19T13:50:47-03:00] Request start: method=GET origin=none
+[2025-12-19T13:50:47-03:00] Blocked non-POST request.
+[2025-12-19T13:51:16-03:00] Request start: method=OPTIONS origin=http://localhost:5174
+[2025-12-19T13:51:16-03:00] Request start: method=POST origin=http://localhost:5174
+[2025-12-19T13:51:16-03:00] Payload: name=Vitor de Souza Barreto email=vitordsb2019@gmail.com subject=comercio-exterior message_len=33
+[2025-12-19T13:51:16-03:00] SMTP password not configured.
+[2025-12-19T13:52:33-03:00] Request start: method=OPTIONS origin=http://localhost:5174
+[2025-12-19T13:52:33-03:00] Request start: method=POST origin=http://localhost:5174
+[2025-12-19T13:52:33-03:00] Payload: name=Vitor de Souza Barreto email=vitordsb2019@gmail.com subject=compras message_len=9
+[2025-12-19T13:52:33-03:00] SMTP password not configured.
+[2025-12-19T13:53:23-03:00] Request start: method=OPTIONS origin=http://localhost:5174
+[2025-12-19T13:53:23-03:00] Request start: method=POST origin=http://localhost:5174
+[2025-12-19T13:53:23-03:00] Payload: name=Vitor de Souza Barreto email=vitordsb2019@gmail.com subject=comercio-exterior message_len=9
+[2025-12-19T13:53:23-03:00] SMTP password not configured.
+[2025-12-19T13:55:30-03:00] Request start: method=OPTIONS origin=http://localhost:5174
+[2025-12-19T13:55:30-03:00] Request start: method=POST origin=http://localhost:5174
+[2025-12-19T13:55:30-03:00] Payload: name=Vitor de Souza Barreto email=vitordsb2019@gmail.com subject=fornecedor message_len=7
+[2025-12-19T13:55:30-03:00] Calling PHPMailer SMTP: host=mail.grupoegp.com.br port=465 secure=ssl
+[2025-12-19T13:55:32-03:00] SMTP debug[2]: SERVER -> CLIENT: 220-br1088.hostgator.com.br ESMTP Exim 4.98.1 #2 Fri, 19 Dec 2025 13:55:32 -0300 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[2025-12-19T13:55:32-03:00] SMTP debug[1]: CLIENT -> SERVER: EHLO localhost
+
+[2025-12-19T13:55:32-03:00] SMTP debug[2]: SERVER -> CLIENT: 250-br1088.hostgator.com.br Hello localhost [45.172.69.74]
+250-SIZE 52428800
+250-LIMITS MAILMAX=50 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[2025-12-19T13:55:32-03:00] SMTP debug[1]: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-12-19T13:55:33-03:00] SMTP debug[2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-12-19T13:55:33-03:00] SMTP debug[1]: CLIENT -> SERVER: [credentials hidden]
+[2025-12-19T13:55:34-03:00] SMTP debug[2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-12-19T13:55:34-03:00] SMTP debug[1]: CLIENT -> SERVER: [credentials hidden]
+[2025-12-19T13:55:34-03:00] SMTP debug[2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[2025-12-19T13:55:34-03:00] SMTP debug[1]: CLIENT -> SERVER: MAIL FROM:<sac@grupoegp.com.br>
+
+[2025-12-19T13:55:34-03:00] SMTP debug[2]: SERVER -> CLIENT: 250 OK
+
+[2025-12-19T13:55:34-03:00] SMTP debug[1]: CLIENT -> SERVER: RCPT TO:<sac@grupoegp.com.br>
+
+[2025-12-19T13:55:35-03:00] SMTP debug[2]: SERVER -> CLIENT: 250 Accepted
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: DATA
+
+[2025-12-19T13:55:35-03:00] SMTP debug[2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: Date: Fri, 19 Dec 2025 13:55:30 -0300
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: To: sac@grupoegp.com.br
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: From: Contato Site <sac@grupoegp.com.br>
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: Reply-To: Vitor de Souza Barreto <vitordsb2019@gmail.com>
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: Subject: Contato: fornecedor
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: Message-ID: <PkqQ6T2Uwzx9Zibb3LiOZxBlluVsQ8ei29e8Zlv04E@localhost>
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER:  boundary="b1=_PkqQ6T2Uwzx9Zibb3LiOZxBlluVsQ8ei29e8Zlv04E"
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: --b1=_PkqQ6T2Uwzx9Zibb3LiOZxBlluVsQ8ei29e8Zlv04E
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Transfer-Encoding: base64
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: Tm9tZTogVml0b3IgZGUgU291emEgQmFycmV0bwpFLW1haWw6IHZpdG9yZHNiMjAxOUBnbWFpbC5j
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: b20KQXNzdW50bzogZm9ybmVjZWRvcgoKZGFzZGFzZA==
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: --b1=_PkqQ6T2Uwzx9Zibb3LiOZxBlluVsQ8ei29e8Zlv04E
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Transfer-Encoding: base64
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: Tm9tZTogVml0b3IgZGUgU291emEgQmFycmV0bwpFLW1haWw6IHZpdG9yZHNiMjAxOUBnbWFpbC5j
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: b20KQXNzdW50bzogZm9ybmVjZWRvcgoKZGFzZGFzZA==
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: --b1=_PkqQ6T2Uwzx9Zibb3LiOZxBlluVsQ8ei29e8Zlv04E--
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: .
+
+[2025-12-19T13:55:35-03:00] SMTP debug[2]: SERVER -> CLIENT: 250 OK id=1vWdlP-000000040KD-0yAP
+
+[2025-12-19T13:55:35-03:00] SMTP debug[1]: CLIENT -> SERVER: QUIT
+
+[2025-12-19T13:55:35-03:00] SMTP debug[2]: SERVER -> CLIENT: 221 br1088.hostgator.com.br closing connection
+
+[2025-12-19T13:55:35-03:00] Mail sent successfully via SMTP.
+[2025-12-19T13:57:19-03:00] Request start: method=OPTIONS origin=http://localhost:5174
+[2025-12-19T13:57:19-03:00] Request start: method=POST origin=http://localhost:5174
+[2025-12-19T13:57:19-03:00] Payload: name=asdasd email=vitordsb2019@gmail.com subject=comercio-exterior message_len=41
+[2025-12-19T13:57:19-03:00] Calling PHPMailer SMTP: host=mail.grupoegp.com.br port=465 secure=ssl
+[2025-12-19T13:57:21-03:00] SMTP debug[2]: SERVER -> CLIENT: 220-br1088.hostgator.com.br ESMTP Exim 4.98.1 #2 Fri, 19 Dec 2025 13:57:21 -0300 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[2025-12-19T13:57:21-03:00] SMTP debug[1]: CLIENT -> SERVER: EHLO localhost
+
+[2025-12-19T13:57:22-03:00] SMTP debug[2]: SERVER -> CLIENT: 250-br1088.hostgator.com.br Hello localhost [45.172.69.74]
+250-SIZE 52428800
+250-LIMITS MAILMAX=50 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[2025-12-19T13:57:22-03:00] SMTP debug[1]: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-12-19T13:57:22-03:00] SMTP debug[2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-12-19T13:57:22-03:00] SMTP debug[1]: CLIENT -> SERVER: [credentials hidden]
+[2025-12-19T13:57:22-03:00] SMTP debug[2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-12-19T13:57:22-03:00] SMTP debug[1]: CLIENT -> SERVER: [credentials hidden]
+[2025-12-19T13:57:22-03:00] SMTP debug[2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[2025-12-19T13:57:22-03:00] SMTP debug[1]: CLIENT -> SERVER: MAIL FROM:<sac@grupoegp.com.br>
+
+[2025-12-19T13:57:22-03:00] SMTP debug[2]: SERVER -> CLIENT: 250 OK
+
+[2025-12-19T13:57:22-03:00] SMTP debug[1]: CLIENT -> SERVER: RCPT TO:<sac@grupoegp.com.br>
+
+[2025-12-19T13:57:23-03:00] SMTP debug[2]: SERVER -> CLIENT: 250 Accepted
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: DATA
+
+[2025-12-19T13:57:23-03:00] SMTP debug[2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: Date: Fri, 19 Dec 2025 13:57:19 -0300
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: To: sac@grupoegp.com.br
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: From: Contato Site <sac@grupoegp.com.br>
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: Reply-To: asdasd <vitordsb2019@gmail.com>
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: Subject: Contato: comercio-exterior
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: Message-ID: <p1elwTNVfhVd5hoBVvTYCTdLb0rxTltO0FaZ4hd6Jyg@localhost>
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER:  boundary="b1=_p1elwTNVfhVd5hoBVvTYCTdLb0rxTltO0FaZ4hd6Jyg"
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: --b1=_p1elwTNVfhVd5hoBVvTYCTdLb0rxTltO0FaZ4hd6Jyg
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Transfer-Encoding: base64
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: Tm9tZTogYXNkYXNkCkUtbWFpbDogdml0b3Jkc2IyMDE5QGdtYWlsLmNvbQpBc3N1bnRvOiBjb21l
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: cmNpby1leHRlcmlvcgoKZGFzZGFzZGFzZHNmYXNvZMOndmtqbmFk4bm9ayBzYWZsdiBkc3Zhc2Q=
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: --b1=_p1elwTNVfhVd5hoBVvTYCTdLb0rxTltO0FaZ4hd6Jyg
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Transfer-Encoding: base64
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: PGh0bWw+PGJvZHkgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsgYmFja2dy
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: b3VuZDojZjdmN2Y3OyBwYWRkaW5nOjE2cHg7Ij48ZGl2IHN0eWxlPSJtYXgtd2lkdGg6NjAwcHg7
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: bWFyZ2luOjAgYXV0bztiYWNrZ3JvdW5kOiNmZmZmZmY7Ym9yZGVyOjFweCBzb2xpZCAjZTVlNWU1
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: O2JvcmRlci1yYWRpdXM6OHB4O292ZXJmbG93OmhpZGRlbjsiPjxkaXYgc3R5bGU9ImJhY2tncm91
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: bmQ6IzBkNmVmZDtjb2xvcjojZmZmZmZmO3BhZGRpbmc6MTZweCAyMHB4O2ZvbnQtc2l6ZToxOHB4
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: O2ZvbnQtd2VpZ2h0OmJvbGQ7Ij5Ob3ZvIGNvbnRhdG8gZG8gc2l0ZTwvZGl2PjxkaXYgc3R5bGU9
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: InBhZGRpbmc6MjBweDsiPjxwIHN0eWxlPSJtYXJnaW46MCAwIDEycHggMDsiPjxzdHJvbmc+Tm9t
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: ZTo8L3N0cm9uZz4gYXNkYXNkPC9wPjxwIHN0eWxlPSJtYXJnaW46MCAwIDEycHggMDsiPjxzdHJv
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: bmc+RS1tYWlsOjwvc3Ryb25nPiB2aXRvcmRzYjIwMTlAZ21haWwuY29tPC9wPjxwIHN0eWxlPSJt
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: YXJnaW46MCAwIDEycHggMDsiPjxzdHJvbmc+QXNzdW50bzo8L3N0cm9uZz4gY29tZXJjaW8tZXh0
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: ZXJpb3I8L3A+PGRpdiBzdHlsZT0ibWFyZ2luLXRvcDoxNnB4O3BhZGRpbmc6MTRweCAxNnB4O2Jh
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: Y2tncm91bmQ6I2YxZjVmOTtib3JkZXI6MXB4IHNvbGlkICNlMmU4ZjA7Ym9yZGVyLXJhZGl1czo2
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: cHg7Ij48c3Ryb25nPk1lbnNhZ2VtOjwvc3Ryb25nPjxicj5kYXNkYXNkYXNkc2Zhc29kw6d2a2pu
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: YWThub1rIHNhZmx2IGRzdmFzZDwvZGl2PjwvZGl2PjxkaXYgc3R5bGU9ImJhY2tncm91bmQ6IzBk
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: NmVmZDtjb2xvcjojZmZmZmZmO3BhZGRpbmc6MTBweCAyMHB4O2ZvbnQtc2l6ZToxMnB4OyI+RW52
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: aWFkbyB2aWEgZm9ybXVsw6FyaW8gZG8gc2l0ZTwvZGl2PjwvZGl2PjwvYm9keT48L2h0bWw+
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: --b1=_p1elwTNVfhVd5hoBVvTYCTdLb0rxTltO0FaZ4hd6Jyg--
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: .
+
+[2025-12-19T13:57:23-03:00] SMTP debug[2]: SERVER -> CLIENT: 250 OK id=1vWdn9-000000042AR-0Vr7
+
+[2025-12-19T13:57:23-03:00] SMTP debug[1]: CLIENT -> SERVER: QUIT
+
+[2025-12-19T13:57:23-03:00] SMTP debug[2]: SERVER -> CLIENT: 221 br1088.hostgator.com.br closing connection
+
+[2025-12-19T13:57:23-03:00] Mail sent successfully via SMTP.
+[2025-12-19T13:57:45-03:00] Request start: method=OPTIONS origin=http://localhost:5174
+[2025-12-19T13:57:45-03:00] Request start: method=POST origin=http://localhost:5174
+[2025-12-19T13:57:45-03:00] Payload: name=Vitor de Souza Barreto email=vitordsb2019@gmail.com subject=comercio-exterior message_len=15
+[2025-12-19T13:57:45-03:00] Calling PHPMailer SMTP: host=mail.grupoegp.com.br port=465 secure=ssl
+[2025-12-19T13:57:47-03:00] SMTP debug[2]: SERVER -> CLIENT: 220-br1088.hostgator.com.br ESMTP Exim 4.98.1 #2 Fri, 19 Dec 2025 13:57:47 -0300 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[2025-12-19T13:57:47-03:00] SMTP debug[1]: CLIENT -> SERVER: EHLO localhost
+
+[2025-12-19T13:57:47-03:00] SMTP debug[2]: SERVER -> CLIENT: 250-br1088.hostgator.com.br Hello localhost [45.172.69.74]
+250-SIZE 52428800
+250-LIMITS MAILMAX=50 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[2025-12-19T13:57:47-03:00] SMTP debug[1]: CLIENT -> SERVER: AUTH LOGIN
+
+[2025-12-19T13:57:47-03:00] SMTP debug[2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[2025-12-19T13:57:47-03:00] SMTP debug[1]: CLIENT -> SERVER: [credentials hidden]
+[2025-12-19T13:57:48-03:00] SMTP debug[2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: [credentials hidden]
+[2025-12-19T13:57:48-03:00] SMTP debug[2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: MAIL FROM:<sac@grupoegp.com.br>
+
+[2025-12-19T13:57:48-03:00] SMTP debug[2]: SERVER -> CLIENT: 250 OK
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: RCPT TO:<sac@grupoegp.com.br>
+
+[2025-12-19T13:57:48-03:00] SMTP debug[2]: SERVER -> CLIENT: 250 Accepted
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: DATA
+
+[2025-12-19T13:57:48-03:00] SMTP debug[2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: Date: Fri, 19 Dec 2025 13:57:45 -0300
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: To: sac@grupoegp.com.br
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: From: Contato Site <sac@grupoegp.com.br>
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: Reply-To: Vitor de Souza Barreto <vitordsb2019@gmail.com>
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: Subject: Contato: comercio-exterior
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: Message-ID: <SJyyDdo4JTgtH32uNSEOSIRRyIjaX2vnyK6Dkm930@localhost>
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER:  boundary="b1=_SJyyDdo4JTgtH32uNSEOSIRRyIjaX2vnyK6Dkm930"
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: --b1=_SJyyDdo4JTgtH32uNSEOSIRRyIjaX2vnyK6Dkm930
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Transfer-Encoding: base64
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: Tm9tZTogVml0b3IgZGUgU291emEgQmFycmV0bwpFLW1haWw6IHZpdG9yZHNiMjAxOUBnbWFpbC5j
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: b20KQXNzdW50bzogY29tZXJjaW8tZXh0ZXJpb3IKCmRhc2RhZGFzZGFzZGFzZA==
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: --b1=_SJyyDdo4JTgtH32uNSEOSIRRyIjaX2vnyK6Dkm930
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: Content-Transfer-Encoding: base64
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: PGh0bWw+PGJvZHkgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcmlhbCwgc2Fucy1zZXJpZjsgYmFja2dy
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: b3VuZDojZjdmN2Y3OyBwYWRkaW5nOjE2cHg7Ij48ZGl2IHN0eWxlPSJtYXgtd2lkdGg6NjAwcHg7
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: bWFyZ2luOjAgYXV0bztiYWNrZ3JvdW5kOiNmZmZmZmY7Ym9yZGVyOjFweCBzb2xpZCAjZTVlNWU1
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: O2JvcmRlci1yYWRpdXM6OHB4O292ZXJmbG93OmhpZGRlbjsiPjxkaXYgc3R5bGU9ImJhY2tncm91
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: bmQ6IzBkNmVmZDtjb2xvcjojZmZmZmZmO3BhZGRpbmc6MTZweCAyMHB4O2ZvbnQtc2l6ZToxOHB4
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: O2ZvbnQtd2VpZ2h0OmJvbGQ7Ij5Ob3ZvIGNvbnRhdG8gZG8gc2l0ZTwvZGl2PjxkaXYgc3R5bGU9
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: InBhZGRpbmc6MjBweDsiPjxwIHN0eWxlPSJtYXJnaW46MCAwIDEycHggMDsiPjxzdHJvbmc+Tm9t
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: ZTo8L3N0cm9uZz4gVml0b3IgZGUgU291emEgQmFycmV0bzwvcD48cCBzdHlsZT0ibWFyZ2luOjAg
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: MCAxMnB4IDA7Ij48c3Ryb25nPkUtbWFpbDo8L3N0cm9uZz4gdml0b3Jkc2IyMDE5QGdtYWlsLmNv
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: bTwvcD48cCBzdHlsZT0ibWFyZ2luOjAgMCAxMnB4IDA7Ij48c3Ryb25nPkFzc3VudG86PC9zdHJv
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: bmc+IGNvbWVyY2lvLWV4dGVyaW9yPC9wPjxkaXYgc3R5bGU9Im1hcmdpbi10b3A6MTZweDtwYWRk
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: aW5nOjE0cHggMTZweDtiYWNrZ3JvdW5kOiNmMWY1Zjk7Ym9yZGVyOjFweCBzb2xpZCAjZTJlOGYw
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: O2JvcmRlci1yYWRpdXM6NnB4OyI+PHN0cm9uZz5NZW5zYWdlbTo8L3N0cm9uZz48YnI+ZGFzZGFk
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: YXNkYXNkYXNkPC9kaXY+PC9kaXY+PGRpdiBzdHlsZT0iYmFja2dyb3VuZDojMGQ2ZWZkO2NvbG9y
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: OiNmZmZmZmY7cGFkZGluZzoxMHB4IDIwcHg7Zm9udC1zaXplOjEycHg7Ij5FbnZpYWRvIHZpYSBm
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: b3JtdWzDoXJpbyBkbyBzaXRlPC9kaXY+PC9kaXY+PC9ib2R5PjwvaHRtbD4=
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: --b1=_SJyyDdo4JTgtH32uNSEOSIRRyIjaX2vnyK6Dkm930--
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: 
+
+[2025-12-19T13:57:48-03:00] SMTP debug[1]: CLIENT -> SERVER: .
+
+[2025-12-19T13:57:49-03:00] SMTP debug[2]: SERVER -> CLIENT: 250 OK id=1vWdnY-000000042NP-2lpQ
+
+[2025-12-19T13:57:49-03:00] SMTP debug[1]: CLIENT -> SERVER: QUIT
+
+[2025-12-19T13:57:49-03:00] SMTP debug[2]: SERVER -> CLIENT: 221 br1088.hostgator.com.br closing connection
+
+[2025-12-19T13:57:49-03:00] Mail sent successfully via SMTP.
